@@ -94,10 +94,25 @@ h3 {
     padding-bottom: 9px;
     border-bottom: 2px solid steelblue;
     width: 60px;
-
-
 }
 
+.about {
+    position: relative;
+    border: 1px solid steelblue;
+    width: 328px;
+    left: 180px;
+    top: 240px;
+    height: 300px;
+}
+
+.thing {
+    position: relative;
+    border: 1px solid steelblue;
+    width: 512px;
+    left: 515px;
+    height: 300px;
+    bottom: 61px;
+}
 
 
 
