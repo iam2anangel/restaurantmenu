@@ -1,0 +1,26 @@
+body {
+    font-family: Cambria;
+    color: #656565;
+}
+
+h1 {
+    color: aquamarine;
+    text-align: center;
+    font-size: 5em;
+  
+}
+
+.image {
+    background-image: url(jen2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    color: #808080;
+    text-align: left;
+}
+
+.abund {
+    color: palevioletred;
+}
