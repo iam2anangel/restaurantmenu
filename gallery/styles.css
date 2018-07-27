@@ -1,0 +1,53 @@
+@media screen and (max-width: 720px) {
+
+.wholething {
+	display: flex;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	height: 1280px;
+	width: 100%;
+}
+
+.header  {
+	display: flex;
+	justify-content: center;
+	border: 1px solid black;
+	padding: 1px;
+	width: 20%;
+	text-align: center;
+			
+}
+
+/*img {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-content: flex-start;
+	flex-wrap: wrap;
+	height: 50vh;
+	width: 100vw; 
+	transition: .8s opacity;
+}*/
+#masonry img { 
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-content: flex-start;
+	flex-wrap: wrap;
+	margin: 1px;
+	height: 50vh;
+	width: 100vw; 
+	transition: .8s opacity;
+}
+}
+
+#masonry:hover img {
+	opacity: 0.3;
+}
+#masonry:hover img:hover {
+	opacity: 1;
+}
+}
