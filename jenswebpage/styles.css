@@ -1,26 +1,73 @@
-body {
-    font-family: Cambria;
-    color: #656565;
+#mainwrapper {
+    background-color: bisque;
 }
 
-h1 {
-    color: aquamarine;
+.maintitle {
+    position: relative;
     text-align: center;
-    font-size: 5em;
-  
+    font-family: fantasy;
+    top: 2em;
+    border-bottom: 2px outset black;
+    font-size: 14px;
+    
 }
 
-.image {
-    background-image: url(jen2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+.fieldpic {
+    position: relative;
+    text-align: center;
+    top: 40px;
 }
 
-h2 {
-    color: #808080;
-    text-align: left;
+
+
+.aboutme {
+    position: relative;
+    border: 2px solid black;
+    font-family: fantasy;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 100px;
+    text-align: center;
+    left: 30em;
+    background-color: #E9967A;
+
+
+
 }
 
-.abund {
-    color: palevioletred;
+.myblog {
+    position: relative;
+    border: 2px solid black;
+    font-family: fantasy;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 100px;
+    text-align: center;
+    left: 45em;
+    bottom: 8em;
+    background-color: #E9967A;
+
 }
+
+.contact {
+    position: relative;
+    border: 2px solid black;
+    font-family: fantasy;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 100px;
+    text-align: center;
+    left: 60em;
+    bottom: 16em;
+    background-color: #E9967A;
+    
+}
+
+
+
