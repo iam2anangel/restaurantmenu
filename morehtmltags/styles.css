@@ -1,0 +1,19 @@
+#mainwrapper {
+    background-color: bisque;
+}
+
+.maintitle {
+    position: relative;
+    text-align: center;
+    font-family: fantasy;
+    top: 2em;
+    border-bottom: 2px outset black;
+    font-size: 14px;
+    
+}
+
+.fieldpic {
+    position: relative;
+    text-align: center;
+    top: 40px;
+}
