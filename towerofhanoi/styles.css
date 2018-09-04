@@ -1,0 +1,38 @@
+
+
+#towersGroup {
+  display: flex;
+  justify-content: center;
+}
+
+.towers {
+  height: 300px;
+  width: 50px;
+  background: black;
+  margin: 40px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.discs {
+  height: 20px;
+  /* ignore click events on disc; dont need if do currenttarget, but need for target */
+  /* pointer-events: none; */
+}
+#small {
+  width: 30px;
+  background: red;
+}
+#medium {
+  width: 60px;
+  background: yellow;
+}
+#large {
+  width: 90px;
+  background: green;
+}
+#xlarge {
+  width: 120px;
+  background: blue;
+}
